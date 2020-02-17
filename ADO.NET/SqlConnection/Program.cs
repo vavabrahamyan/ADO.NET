@@ -39,6 +39,7 @@ namespace ADO.NET.Connection
             }
             finally
             {
+                Console.WriteLine($"Server Name:={connection.DataSource}");
                 connection.Close();
                 Console.WriteLine("Connection is closed");
             }
