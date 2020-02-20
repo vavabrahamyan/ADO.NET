@@ -15,6 +15,10 @@ namespace Commands
 
             //Insert(connectionString, "insert into Users (Name, Age) values ('Vahe', 25)");
 
+            for (int i = 0; i < 20; i++)
+            {
+
+            }
 
         }
 
