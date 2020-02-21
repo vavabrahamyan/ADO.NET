@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connection", "SqlConnection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commands", "Commands\Commands.csproj", "{8B45F41A-EF67-45FA-9275-601245C7DEC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDReader", "SDReader\SDReader.csproj", "{3A5B65F3-8E48-40D6-BA74-F84B3B3FCF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDReader", "SDReader\SDReader.csproj", "{3A5B65F3-8E48-40D6-BA74-F84B3B3FCF6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parametrizer", "Parametrizer\Parametrizer.csproj", "{183569E7-92C2-4BBD-9F0D-882786626CA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parametrizer", "Parametrizer\Parametrizer.csproj", "{183569E7-92C2-4BBD-9F0D-882786626CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_TransactionScope", "_TransactionScope\_TransactionScope.csproj", "{1F45A1E3-534A-455F-B226-31E6EA79E1E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{183569E7-92C2-4BBD-9F0D-882786626CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{183569E7-92C2-4BBD-9F0D-882786626CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{183569E7-92C2-4BBD-9F0D-882786626CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F45A1E3-534A-455F-B226-31E6EA79E1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F45A1E3-534A-455F-B226-31E6EA79E1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F45A1E3-534A-455F-B226-31E6EA79E1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F45A1E3-534A-455F-B226-31E6EA79E1E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

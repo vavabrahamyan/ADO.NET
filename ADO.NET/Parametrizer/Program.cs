@@ -6,8 +6,19 @@ namespace Parametrizer
 {
     class Program
     {
+        private static  void Foo(params int[] numbers)
+        {
+            Console.WriteLine(numbers[3]);
+        }
         static void Main(string[] args)
         {
+            Foo(3, 4, 5, 65, 76);
+
+
+
+
+
+
             string connectionString = @"Data Source=DESKTOP-BG4E31L;Initial Catalog=usersdb;Integrated Security=True";
             int age = 23;
             string name = "Kenny";
